@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F4F4F4;
+}
+
+header {
+    font-size: 1em;
+    background-color: #A32B68;
+}
+
+#headerLogo {
+    font-family: "Mak Light", sans-serif;
+    font-size: 2em;
+    color: black;
+}
+
+
+#loginButton {
+    border-color: #E7BAD7;
+    color: black;
+}
+
+#loginButton:hover{
+    background-color: #E7BAD7;
+}
+
+
+#loginFormButton {
+    border-color: #A32B68;
+    background-color: #A32B68;
+}
+
+#searchButton {
+    border-color: #A32B68;
+    color: black;
+}
+
+#searchButton:hover {
+    background-color: #A32B68;
+}
+
+#yellowImage {
+    margin: 0;
+    padding: 0;
+}
+#login-card-header {
+    background-color: #A32B68;
+    font-family: "Mak Light", serif;
+    font-size: 1.8em;
+}
+
+#loginField, #passwordField, #fioField, #telephoneNumberField, #searchField {
+    border-color: #A32B68;
+}
+
+#loginFormContainer {
+    min-width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-color: #A32B68;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+#productsPanelTableHeader {
+    border: 1px solid #A32B68;
+    border-radius: 5px;
+}
+
+/*Выпадающее меню*/
+
+#userDropdownMenu {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#userDropdownMenu:hover #dropdown-content {
+     display: block;
+ }
